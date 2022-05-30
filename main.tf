@@ -25,6 +25,6 @@ resource "aws_instance" "ubuntu" {
   tags = {
     Name = var.instance_name
     CreatedBy = var.created_by
-    environment = "dev"
+    environment = "test"
   }
 }
